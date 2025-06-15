@@ -6,12 +6,12 @@ fun main() {
     val patronymic = "Сергеевна"
     val age = 22
     val ageInPaste = 20
-    val sernameNew = "Сидорова"
+    val surnameNew = "Сидорова"
 
-    val publickDataInPaste = "$surname $name $patronymic возраст:$ageInPaste"
-    println(publickDataInPaste)
-    val publickDataInNow = "$sernameNew $name $patronymic возраст:$age"
-    println(publickDataInNow)
+    val publicDataInPaste = "$surname $name $patronymic возраст:$ageInPaste"
+    println(publicDataInPaste)
+    val publicDataInNow = "$surnameNew $name $patronymic возраст:$age"
+    println(publicDataInNow)
 
 
 }
