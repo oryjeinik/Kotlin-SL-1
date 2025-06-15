@@ -6,9 +6,9 @@ fun main() {
     val numberOfTrainees = 30
     val salaryOfTrainees = 20000
 
-    val expenseSalaryForPermanentEmployee = numberOfPermanentEmployees*salaryPermanentEmployee
-    val allSalary = expenseSalaryForPermanentEmployee+numberOfTrainees*salaryOfTrainees
-    val averageSalary = allSalary/(numberOfPermanentEmployees+numberOfTrainees)
+    val expenseSalaryForPermanentEmployee = numberOfPermanentEmployees * salaryPermanentEmployee
+    val allSalary = expenseSalaryForPermanentEmployee + numberOfTrainees * salaryOfTrainees
+    val averageSalary = allSalary / (numberOfPermanentEmployees + numberOfTrainees)
 
     println("Рассходы на постоянных сотрудников:$expenseSalaryForPermanentEmployee")
     println("ФОТ:$allSalary")
