@@ -3,16 +3,16 @@ package org.example
 fun main() {
     val startNumber = 8
     val multiplicationTable = """
-        $startNumber * 1 = ${startNumber*1}
-        $startNumber * 2 = ${startNumber*2}
-        $startNumber * 3 = ${startNumber*3}
-        $startNumber * 4 = ${startNumber*4}
-        $startNumber * 5 = ${startNumber*5}
-        $startNumber * 6 = ${startNumber*6}
-        $startNumber * 7 = ${startNumber*7}
-        $startNumber * 8 = ${startNumber*8}
-        $startNumber * 9 = ${startNumber*9}
-        $startNumber * 10 = ${startNumber*10}
+        $startNumber * 1 = ${startNumber * 1}
+        $startNumber * 2 = ${startNumber * 2}
+        $startNumber * 3 = ${startNumber * 3}
+        $startNumber * 4 = ${startNumber * 4}
+        $startNumber * 5 = ${startNumber * 5}
+        $startNumber * 6 = ${startNumber * 6}
+        $startNumber * 7 = ${startNumber * 7}
+        $startNumber * 8 = ${startNumber * 8}
+        $startNumber * 9 = ${startNumber * 9}
+        $startNumber * 10 = ${startNumber * 10}
         
     """.trimIndent()
     println(multiplicationTable)
