@@ -12,6 +12,4 @@ fun main() {
     println(publicDataInPaste)
     val publicDataInNow = "$surnameNew $name $patronymic возраст:$age"
     println(publicDataInNow)
-
-
 }
