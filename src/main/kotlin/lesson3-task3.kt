@@ -1,7 +1,7 @@
 package org.example
 
 fun main() {
-    val startNumber = 8
+    val startNumber = 6
     val multiplicationTable = """
         $startNumber * 1 = ${startNumber * 1}
         $startNumber * 2 = ${startNumber * 2}
@@ -13,7 +13,6 @@ fun main() {
         $startNumber * 8 = ${startNumber * 8}
         $startNumber * 9 = ${startNumber * 9}
         $startNumber * 10 = ${startNumber * 10}
-        
     """.trimIndent()
     println(multiplicationTable)
 
