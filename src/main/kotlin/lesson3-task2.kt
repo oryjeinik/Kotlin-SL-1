@@ -2,16 +2,14 @@ package org.example
 
 fun main() {
     val name = "Татьяна"
-    val surname = "Андреева"
+    var surname = "Андреева"
     val patronymic = "Сергеевна"
-    val age = 22
-    val ageInPaste = 20
-    val surnameNew = "Сидорова"
+    var age = 20
 
-    val publicDataInPaste = "$surname $name $patronymic возраст:$ageInPaste"
+    var publicDataInPaste = "$surname $name $patronymic возраст:$age"
     println(publicDataInPaste)
-    val publicDataInNow = "$surnameNew $name $patronymic возраст:$age"
-    println(publicDataInNow)
-
-
+    surname = "Сидорова"
+    age = 22
+    publicDataInPaste = "$surname $name $patronymic возраст:$age"
+    println(publicDataInPaste)
 }
