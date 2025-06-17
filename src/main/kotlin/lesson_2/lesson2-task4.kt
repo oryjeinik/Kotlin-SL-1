@@ -6,7 +6,7 @@ fun main() {
     val crystalOreWithoutBuff = 7
     val ironOreWithoutBuff = 11
 
-    val buffMultiplier = 20.0 / MAX_PROCENT // 20% бафф
+    val buffMultiplier = 20.0 / MAX_PROCENT
 
     val bonusCrystalOre = (crystalOreWithoutBuff * buffMultiplier).toInt()
     val bonusIronOre = (ironOreWithoutBuff * buffMultiplier).toInt()
